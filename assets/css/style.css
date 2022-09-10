@@ -8,5 +8,22 @@
 
 body {
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    color: #171313;
+}
+
+/* logos and headings */
+
+#logo {
+    float: left;
+    text-decoration: none;
+    font-style: italic;
+    color: #008000;
+    font-size: 200%;
+}
+
+h1, h2 {
+    font-family: 'Noto serif Georgian', sans-serif;
+    text-transform: uppercase;
+    color: black;
 }
