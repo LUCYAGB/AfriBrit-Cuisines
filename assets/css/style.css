@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Noto+Serif+Georgian:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
 
 * {
     margin: 0;
@@ -9,21 +9,22 @@
 body {
     font-family: Lato, sans-serif;
     font-size: 20px;
-    color: #171313;
+    color: grey;
 }
 
-/* logos and headings */
+/* headings and logos  */
+
+h1, h2 {
+    font-family: 'Roboto serif' sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #594d58;
+}
 
 #logo {
     float: left;
-    text-decoration: none;
-    font-style: italic;
-    color: #008000;
-    font-size: 200%;
+    font-size: 220%;
 }
 
-h1, h2 {
-    font-family: 'Noto serif Georgian', sans-serif;
-    text-transform: uppercase;
-    color: black;
-}
+
+
