@@ -18,12 +18,46 @@ h1, h2 {
     font-family: 'Roboto serif' sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
+    font-weight: bold;
     color: #594d58;
 }
 
 #logo {
     float: left;
-    font-size: 220%;
+    font-size: 70px;
+}
+
+/* Navigation links */
+
+#navbar {
+    font-size: 25px;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+#navbar, #logo {
+    line-height: 75px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#navbar a {
+     color: #594d58;
+     text-decoration: none;
+     font-size: 25px;
+     font-weight: 900;
+}
+
+#navbar a:hover {
+   border-bottom: 1px solid #00f;
+}
+
+.active {
+    border-bottom: 1px solid #00f;;
 }
 
 
