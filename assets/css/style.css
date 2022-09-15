@@ -24,7 +24,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 /* Navigation links */
@@ -57,8 +57,46 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid #00f;;
+    border-bottom: 1px solid #00f;
 }
 
+/* hero image */
 
+#hero-container {
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    overflow: hidden;
+}
 
+.hero-text h2 {
+    color: #fff;
+    font-family: 'Roboto serif' sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.hero-image {
+        background: url('../images/hero-image.jpeg') no-repeat center center;
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+}
+
+.hero-text {
+    font-family: 'Roboto serif' sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text p {
+    color: #fff;
+    font-family: 'Roboto serif' sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
