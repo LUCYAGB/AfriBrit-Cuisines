@@ -22,7 +22,7 @@
         <nav>
             <ul id="navbar">
                 <li>
-                    <a href="table-booking.html">Reserve Table</a>
+                    <a href="table-booking.html" class="active">Reserve Table</a>
                 </li>
 
                 <li>
@@ -30,39 +30,37 @@
                 </li>
 
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
 
             </ul>
         </nav>
     </header>
 
-    <section id="hero-container">
-        <div class="hero-image">
-            <div class="hero-text">
-                <h2>Great taste, everyone's choice.</h2>
-                <p>Eat healthy, stay healthy.</p>
-            </div>
-        </div>
-    </section>
+    
     <section>
-        <div class="about-text">
-            <h2>About AfriBrit</h2>
-            <p>A multi-cultural restaurant, with dishes ranging from the ever popular
-                Nigerian Jollof rice, to the most enjoyed British Shepherd's Pie.
-                AfriBrit is truly a home away from home, a place we truly believe you would
-                love to be.
-            </p>
-        </div>
-    </section>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name">
 
-    <section id="homepage-images">
-        <div class="images">
-            <img src="assets/images/jollof.jpg" alt="a plate of jollof rice and plaintain">
-            <img src="assets/images/egusi.jpg" alt="a bowl of egusi">
-            <img src="assets/images/sunday roast.png" alt="sunday roast, chef's choice">
-            <img src="assets/images/shepherd-pie.jpg" alt="a plate of shepherd's pie">
-        </div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name">
+
+            <label for="people">Number of people</label>
+            <input type="number" id="people" name="no_of_people" min="1" max="10" required>
+
+            <label for="contact">Phone Number</label>
+            <input type="tel" id="contact" name="contact">
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="request">Additional Request</label>
+            <input type="textarea" id="request" name="additional_request">
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
     </section>
 
     <footer>
