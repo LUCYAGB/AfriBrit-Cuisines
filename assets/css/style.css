@@ -146,12 +146,55 @@ h1, h2 {
 
  .images {
     display: flex;
-    gap: 20px;
-    
-
+    gap: 5px;
 }
 
-img {
+
+#contact-details div {
+    color: #fff;
+    background-color: black;
+    width: 33.3%;
+    height: 200px;
+    float: left;
+    padding: 5px 0 0 5px;
+    text-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;  
+}
+
+#contact-details h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#social-icons {
+    background-color: black;
     
 }
+
+.icons {
+    text-align: center;
+    
+}
+
+.icons > li {
+    display: inline;
+}
+
+.icons i {
+    font-size: 150%;
+    padding: 5%;
+    color: #fff;
+}
+
+.icons i:hover {
+    background-color: grey;
+}
+
+ul ~ p {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
 
