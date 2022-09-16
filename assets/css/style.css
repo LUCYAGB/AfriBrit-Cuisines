@@ -124,3 +124,34 @@ h1, h2 {
     margin-bottom: 5px;
     
 }
+
+/* Styling the home page images */
+
+#homepage-images {
+     padding: 0 20px 0;
+     padding-bottom: 300px;
+     width: 300px;
+     height: 100px;
+    
+} 
+
+/* Resizing the images */
+
+#homepage-images img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+ .images {
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+img {
+    
+}
+
