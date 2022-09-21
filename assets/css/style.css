@@ -19,7 +19,7 @@ h1, h2 {
     text-transform: capitalize;
     letter-spacing: 2px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 #logo {
@@ -39,6 +39,10 @@ h1, h2 {
     line-height: 75px;
 }
 
+nav {
+  background-color: black;
+}
+
 #navbar li {
     float: right;
     list-style-type: none;
@@ -46,18 +50,18 @@ h1, h2 {
 }
 
 #navbar a {
-     color: black;
+     color: white;
      text-decoration: none;
      font-size: 25px;
      font-weight: 900;
 }
 
 #navbar a:hover {
-   border-bottom: 1px solid #00f;
+   border-bottom: 1px solid white;
 }
 
 .active {
-    border-bottom: 1px solid #00f;
+    border-bottom: 1px solid white;
 }
 
 /* hero image */
@@ -204,6 +208,7 @@ ul ~ p {
     text-align: center;
 }
 
+/* Cuisines page styling */
 .menu {
     font-family: 'Roboto Serif' sans-serif;
     font-size: 14px;
@@ -255,6 +260,56 @@ ul ~ p {
     margin-top: 1em;
     font-family: Lato, sans-serif;
    
+}
+
+.form-section {
+    clear: left;
+    background: url(../images/table-boooking.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.book-form {
+    margin: 100px 5% 0 0;
+    color:#fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 5%;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=textarea] {
+     height: 80px;
+     border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-size: 16px;
+    background-color: rgba(60, 60, 60, 0.6);
+    color: #ccc;
+    padding: 5px 0;
+    margin: 10px 0;
+} 
+
+input[type=submit]:hover {
+    background-color: rgb(236, 21, 21);
+    color: #ccc;
 }
 
 
