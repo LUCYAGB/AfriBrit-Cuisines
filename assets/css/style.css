@@ -64,8 +64,9 @@ h1, h2 {
 
 #hero-container {
     position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
     height: 80vh;
-    width: 100vw;
     overflow: hidden;
 }
 
@@ -151,6 +152,11 @@ h1, h2 {
 
 /* footer */
 
+#footer-section {
+    height: 30px;
+    padding-top: 100px;
+}
+
 #contact-details div {
     color: #fff;
     background-color: black;
@@ -198,4 +204,72 @@ ul ~ p {
     text-align: center;
 }
 
+.menu {
+    font-family: 'Roboto Serif' sans-serif;
+    font-size: 14px;
 
+}
+
+.menu-heading {
+    font-family: 'Roboto Serif' sans-serif;
+    margin: 0;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #ccc;
+
+}
+
+.menu-grouping {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+.menu-item-text {
+    flex-grow: 1;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item-name {
+    margin-right: 1.5em;
+}
+
+.menu-item-description {
+    line-height: 1.5;
+    margin-top: 1em;
+    font-family: Lato, sans-serif;
+   
+}
+
+
+@media screen and (min-width: 992px) {
+    .menu {
+        font-size: 16px;
+
+    }
+
+    .menu-grouping {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-item-image {
+        width: 300px;
+        height: 300px;
+    }
+}
