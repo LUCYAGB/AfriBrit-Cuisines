@@ -19,12 +19,13 @@ h1, h2 {
     text-transform: capitalize;
     letter-spacing: 2px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 #logo {
     float: left;
     font-size: 50px;
+    color: white;
 }
 
 /* Navigation links */
