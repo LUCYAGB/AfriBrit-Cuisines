@@ -96,7 +96,7 @@ The navigation bar -
 
 ![navigation](https://user-images.githubusercontent.com/111319158/192885818-54c8e12c-594d-4f8d-99cb-f7d5c1355afc.PNG)
 
-The responsive navigation bar contains the Home, Cuisines and Book Table pages. On the left is the cuisines logo. The navigation bar 
+The responsive navigation bar contains the Home, Cuisines and Reserve Table pages. On the left is the cuisines logo. The navigation bar 
 helps the user to access the various pages.
 
 The Footer -
@@ -110,6 +110,18 @@ social media links where users can visit to get reviews.
 
 The Home page -
 
-* About AfriBrit Section. This section contains some dishes to give users an idea of what the website
+* Navigation and Footer section: This has been explained earlier under common features of all pages.
+
+* AfriBrit Section: This section contains some dishes to give users an idea of what the website
  is about. Using media query, on large screens the images are laid out horizontally, however on mobile devices the images are stacked vertically(on top each other).
+ 
+ The Cuisines page -
+ 
+ This section contains the menu and prices of each cuisine. Easy for users to make a choice and see the prices at a glance.
+ 
+ The Reserve Table page -
+ 
+ This section contains a form where users can put their details to enable them book a table for present or future visits.
+ 
+ 
 
