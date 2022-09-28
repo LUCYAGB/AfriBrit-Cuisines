@@ -92,8 +92,12 @@ The website consists of three(3) pages all of which are accessible via the navig
 
 * Common features of all pages:
 
-The navigation bar
+The navigation bar -
 
+![navigation](https://user-images.githubusercontent.com/111319158/192885818-54c8e12c-594d-4f8d-99cb-f7d5c1355afc.PNG)
 
+The responsive navigation bar contains the Home, Cuisines and Book Table pages. On the left is the cuisines logo. The navigation bar 
+helps the user to access the various pages.
 
+The Footer -
 
