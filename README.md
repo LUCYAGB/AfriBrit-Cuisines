@@ -39,3 +39,36 @@ Insert a link to the live site here, GitHub pages link
 1. Bugs
 
 1. Credits
+
+___
+
+
+# User Experience (UX)
+
+## Initial Goal
+
+The AfriBrit Cuisines as a restaurant wants its customers to have the best service and their money worth.
+
+## Future Goal
+
+To have a day set aside for food tasting and personal food recipes sent in by customers.
+
+## User Stories
+
+### Client goals
+
+* To make it easy to find the site online using meta tags.
+
+* To make it accessible by adding contacts and location on the site.
+
+* To be able to view the site on a range of device sizes.
+
+### Fist time visitor's goals
+
+* To be able to easily navigate through the site.
+* To be able to make reservations for preferred dates.
+* Easily access the location from the site.
+
+### Returning and consistent visitors
+
+* Ability to recommend the site to someone else.
