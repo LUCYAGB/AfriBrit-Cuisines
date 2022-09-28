@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     border: none;
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -15,8 +17,9 @@ body {
 
 /* headings and logos  */
 
-h1, h2 {
-    font-family: 'Roboto Serif' sans-serif;
+h1,
+h2 {
+    font-family: 'Roboto Serif'sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     font-weight: bold;
@@ -26,6 +29,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 50px;
+    line-height: 70px;
     margin-left: 15px;
     color: #ffffff;
 }
@@ -34,84 +38,110 @@ h1, h2 {
 
 nav {
     background-color: #F50031;
-  }
+    height: 80px;
 
-#navbar {
-    font-size: 25px;
-    letter-spacing: 2px;
-    overflow: hidden;
 }
 
-#navbar, #logo {
-    line-height: 75px;
-}
-
-#navbar li {
+nav ul {
     float: right;
-    list-style-type: none;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
-#navbar a {
-     color: #ffffff;
-     text-decoration: none;
-     font-size: 25px;
-     font-weight: 900;
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 15px;
 }
 
-#navbar a:hover {
-   border-bottom: 1px solid white;
+nav ul li a {
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 4px 0;
+    text-transform: uppercase;
 }
 
-.active {
-    border-bottom: 1px solid white;
+nav ul li a:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .3s linear;
 }
+
+nav ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+
+}
+
+label #btn,
+label #cancel {
+    color: #ffffff;
+    font-size: 30px;
+    float: right;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
 
 /* hero image */
 
 #hero-container {
     position: relative;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1200px;
     height: 80vh;
     overflow: hidden;
 }
 
 .hero-text {
-     background-color: rgba(60, 60, 60, 0.6);
-     border: 1px solid rgb(57, 3, 3);
-     border-radius: 25px;
-     width: 60%;
-     line-height: 2em;
+    background-color: rgba(60, 60, 60, 0.6);
+    border: 1px solid rgb(57, 3, 3);
+    border-radius: 25px;
+    width: 60%;
+    line-height: 2em;
 }
 
 .hero-text h2 {
     color: #fff;
-    font-family: 'Roboto Serif' sans-serif;
+    font-family: 'Roboto Serif'sans-serif;
     font-size: 40px;
     font-weight: 500;
 }
 
 .hero-image {
-        background: url('../images/hero-image1.jpg') no-repeat center center;
-        height: 80vh;
-        width: 100vw;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
+    background: url('../images/hero-image1.jpg') no-repeat center center;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .hero-text {
-    font-family: 'Roboto Serif' sans-serif;
+    font-family: 'Roboto Serif'sans-serif;
     text-align: center;
     color: #fff;
 }
 
 .hero-text p {
     color: #fff;
-    font-family: 'Roboto Serif' sans-serif;
+    font-family: 'Roboto Serif'sans-serif;
     font-size: 30px;
     font-weight: 500;
     line-height: 40px;
@@ -120,9 +150,9 @@ nav {
 /* About AfriBrit Styling */
 
 .about-text h2 {
-   font-family: 'Roboto Serif' sans-serif;
-   font-size: 40px;
-   
+    font-family: 'Roboto Serif'sans-serif;
+    font-size: 40px;
+
 }
 
 .about-text {
@@ -138,18 +168,18 @@ nav {
     line-height: 1.5;
     color: black;
     margin-bottom: 5px;
-    
+
 }
 
 /* Styling the home page images */
 
 #homepage-images {
-     padding: 0 20px 0;
-     padding-bottom: 300px;
-     width: 300px;
-     height: 100px;
-    
-} 
+    padding: 0 20px 0;
+    padding-bottom: 300px;
+    width: 260px;
+    height: 100px;
+
+}
 
 /* Resizing the images */
 
@@ -161,7 +191,7 @@ nav {
 
 }
 
- .images {
+.images {
     display: flex;
     gap: 5px;
 }
@@ -183,7 +213,7 @@ nav {
     padding: 5px 0 0 5px;
     text-align: center;
     line-height: 1.5;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 #contact-details h2 {
@@ -193,15 +223,15 @@ nav {
 
 #social-icons {
     background-color: #F50031;
-    
+
 }
 
 .icons {
     text-align: center;
-    
+
 }
 
-.icons > li {
+.icons>li {
     display: inline;
 }
 
@@ -215,7 +245,7 @@ nav {
     background-color: grey;
 }
 
-ul ~ p {
+ul~p {
     color: #fff;
     font-size: 25px;
     text-align: center;
@@ -223,13 +253,13 @@ ul ~ p {
 
 /* Cuisines page styling */
 .menu {
-    font-family: 'Roboto Serif' sans-serif;
+    font-family: 'Roboto Serif'sans-serif;
     font-size: 14px;
 
 }
 
 .menu-heading {
-    font-family: 'Roboto Serif' sans-serif;
+    font-family: 'Roboto Serif'sans-serif;
     margin: 2%;
     text-align: center;
     padding-top: 50px;
@@ -252,6 +282,7 @@ ul ~ p {
     height: 150px;
     object-fit: cover;
     margin-right: 1.5em;
+    border: 3px solid #fff;
 }
 
 .menu-item-text {
@@ -270,19 +301,21 @@ ul ~ p {
 .menu-item-description {
     line-height: 1.5;
     margin-top: 1em;
-    font-family: Lato, sans-serif; 
+    font-family: Lato, sans-serif;
 }
 
 .menu-item-price {
-    background-color: #F50031;
+    border: 1px solid rgb(57, 3, 3);
+    border-radius: 2px;
+
 }
 
 .form-section {
-    clear: left;
     background: url(../images/table-boooking.jpeg);
     background-size: cover;
     background-position: center;
     height: 700px;
+    padding-top: 30px;
 }
 
 .book-form h2 {
@@ -291,12 +324,10 @@ ul ~ p {
 
 .book-form {
     margin: 100px 5% 0 0;
-    color:#fff;
+    color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    height: 500px;
-    position: absolute;
-    left: 5%;
+    margin-left: 30px;
     padding: 20px;
 }
 
@@ -312,8 +343,8 @@ input {
 }
 
 input[type=textarea] {
-     height: 80px;
-     border: 1px solid #ccc;
+    height: 80px;
+    border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -324,13 +355,19 @@ input[type=submit] {
     color: #ccc;
     padding: 5px 0;
     margin: 10px 0;
-} 
+}
 
 input[type=submit]:hover {
     background-color: #F50031;
     color: #ccc;
 }
 
+/* MEDIA QUERY */
+
+/* For resolutions above 992px */
+@media (max-width: 1200px) {
+   
+}
 
 @media screen and (min-width: 992px) {
     .menu {
