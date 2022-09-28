@@ -70,3 +70,19 @@ To have a day set aside for food tasting and personal food recipes sent in by cu
 ### Returning and consistent visitors
 
 * Ability to recommend the site to someone else.
+
+___
+
+## Design
+
+### Topography
+
+Google Fonts was used in the following ways:
+
+* Roboto Serif was used for all headers.
+* Lato solely for the body of the site.
+
+### Imagery
+ 
+ All images used in this site were from various sources, either from Google images or Pexels.com. This will be attributed in the credits section.
+
