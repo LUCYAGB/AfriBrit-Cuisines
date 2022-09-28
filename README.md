@@ -86,3 +86,14 @@ Google Fonts was used in the following ways:
  
  All images used in this site were from various sources, either from Google images or Pexels.com. This will be attributed in the credits section.
 
+ ## Features
+
+The website consists of three(3) pages all of which are accessible via the navigation bar.
+
+* Common features of all pages:
+
+The navigation bar
+
+
+
+
