@@ -22,7 +22,6 @@ Insert a link to the live site here, GitHub pages link
     
 1. Features
     * Features of each page
-    * Future Implementation
     * Accessiblity
 
 1. Technologies Used
@@ -123,5 +122,29 @@ The Home page -
  
  This section contains a form where users can put their details to enable them book a table for present or future visits.
  
+ ### Accessibility
  
+ I tried while building the website to make it as accessible as possible. This was achieved by:
 
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Providing information for screen readers where there are icons used and no texts.
+* Ensuring menus are accessible by marking the current page as active.
+
+___
+
+## Technologies used
+
+### Languages Used
+
+* HTML
+* css
+
+### Frameworks & Libraries Used
+
+* Git - For version control.
+* Github - To save and store the files for the website.
+* Google Fonts - To import the fonts used on the website.
+* Font Awesome - For the icons on the website.
+* Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling
+* [Amiresponsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
