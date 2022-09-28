@@ -101,3 +101,15 @@ helps the user to access the various pages.
 
 The Footer -
 
+![footer](https://user-images.githubusercontent.com/111319158/192887496-1dfecea3-7885-463e-b7be-c191323e78ed.PNG)
+
+This section contains the address of the restaurant, the office number as well as opening and closing hours. It also
+social media links where users can visit to get reviews.
+
+### Features of each pages in detail:
+
+The Home page -
+
+* About AfriBrit Section. This section contains some dishes to give users an idea of what the website
+ is about. Using media query, on large screens the images are laid out horizontally, however on mobile devices the images are stacked vertically(on top each other).
+
