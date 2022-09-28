@@ -18,10 +18,8 @@ Insert a link to the live site here, GitHub pages link
     
 1. Design
     * Typography
-    * Color Scheme
     * Imagery
-    * Wireframes
-
+    
 1. Features
     * Features of each page
     * Future Implementation
