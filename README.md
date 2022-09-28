@@ -29,7 +29,6 @@ Insert a link to the live site here, GitHub pages link
     * Frameworks & Libraries used
 
 1. Deployment
-    * 
 
 1. Testing
 
@@ -78,8 +77,8 @@ ___
 
 Google Fonts was used in the following ways:
 
-* Roboto Serif was used for all headers.
-* Lato solely for the body of the site.
+* Lato was used for all headers.
+* sans-serif solely for the body of the site.
 
 ### Imagery
  
@@ -148,3 +147,38 @@ ___
 * Font Awesome - For the icons on the website.
 * Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling
 * [Amiresponsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+
+## Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+1. Find the repository for this project, Bully-Book-Club.
+1. Click on the Settings link.
+1. Click on the Pages link in the left hand side navigation bar.
+1. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+1. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+## Testing
+
+Chrome developer tools was used for testing at every stage of building the site. 
+The following issues were raised during my mid project meeting with my mentor:
+
+
+
+
+The images on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
+There was an issue on smaller devices where the book columns were not displaying properly. This issue is documented under issue 2 in solved bugs.
+The introduction paragraph on the books page was not aligned in style with the rest of the page. The text has now been centered.
+The form could be submitted with only a name filled in. ~ A required attribute has been added to the email input and textarea.
+
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML and CSS for all pages.
+HTML
+* No error was returned when passed through the official W3C validator
+
+CSS 
+* Returned no errors when ran through the official jigsaw validation
+* Returned one(1) warning when passsed through validation - Imported style sheets are not checked in direct input and file upload modes
