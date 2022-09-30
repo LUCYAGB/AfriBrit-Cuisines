@@ -185,11 +185,24 @@ The following issues were raised during my mid project meeting with my mentor:
 ### W3C Validator
 
 The W3C validator was used to validate the HTML and CSS for all pages.
-HTML
-* No error was returned when passed through the official W3C validator
+Test for Index.html
+* One(1) error was returened when passed through the official W3C validator. This was unresolved as I did not see the need for 
+  a heading tag and the line already had a div tag.
+![image](https://user-images.githubusercontent.com/111319158/193176854-ab6e43b1-1736-4878-9f5a-2120008a7e0f.png)
+
+Test for cuisines.html
+* Testing for this page came back positive as their were no errors.
+  ![image](https://user-images.githubusercontent.com/111319158/193177293-e33b3a2a-eecf-4674-a1fa-a35d464953e5.png)
+
+Test for table-booking.html 
+* No errors recorded.
+   ![image](https://user-images.githubusercontent.com/111319158/193177467-1d9f3f72-e7c3-4710-ab8f-0fd5f487533e.png)
+
 
 CSS 
 * Returned no errors when ran through the official jigsaw validation
-* Returned one(1) warning when passsed through validation - Imported style sheets are not checked in direct input and file upload modes
+  ![image](https://user-images.githubusercontent.com/111319158/193177632-3952ecb3-ca64-454e-b478-b8e1e4d22897.png)
+
+
 
 
