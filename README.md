@@ -115,8 +115,8 @@ The Home page -
 
 * Navigation and Footer section: This has been explained earlier under common features of all pages.
 
-* AfriBrit Section: This section contains some dishes to give users an idea of what the website
- is about. Using media query, on large screens the images are laid out horizontally, however on mobile devices the images are stacked vertically(on top each other).
+* AfriBrit Image Section: This section contains some dishes to give users an idea of what the website
+ is about.
  
  The Cuisines page -
  
