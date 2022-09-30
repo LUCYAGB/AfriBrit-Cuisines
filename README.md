@@ -104,7 +104,9 @@ helps the user to access the various pages.
 
 The Footer -
 
-![footer](https://user-images.githubusercontent.com/111319158/192887496-1dfecea3-7885-463e-b7be-c191323e78ed.PNG)
+![image](https://user-images.githubusercontent.com/111319158/193174923-7ab3e714-f597-4f86-80e7-c88e52ab1af7.png)
+
+![image](https://user-images.githubusercontent.com/111319158/193175066-4b749aad-dbeb-455e-88e2-c75245c2a5ec.png)
 
 This section contains the address of the restaurant, the office number as well as opening and closing hours. It also
 social media links where users can visit to get reviews.
@@ -115,20 +117,23 @@ The Home page -
 
 * Navigation and Footer section: This has been explained earlier under common features of all pages.
 
-![image](https://user-images.githubusercontent.com/111319158/193174923-7ab3e714-f597-4f86-80e7-c88e52ab1af7.png)
-
-![image](https://user-images.githubusercontent.com/111319158/193175066-4b749aad-dbeb-455e-88e2-c75245c2a5ec.png)
-
 * AfriBrit Image Section: This section contains some dishes to give users an idea of what the website
  is about.
+ 
+ ![image](https://user-images.githubusercontent.com/111319158/193175260-51bab8d1-33c3-49d9-9986-5c791ac2fd3a.png)
+
  
  The Cuisines page -
  
  This section contains the menu and prices of each cuisine. Easy for users to make a choice and see the prices at a glance.
  
+ ![image](https://user-images.githubusercontent.com/111319158/193175626-8038c14f-4a3d-4d8e-b32d-f3eaacba50d2.png)
+ 
  The Reserve Table page -
  
  This section contains a form where users can put their details to enable them book a table for present or future visits.
+ 
+ ![image](https://user-images.githubusercontent.com/111319158/193175724-c33fc608-3931-4bcc-91e8-2a86e23307b2.png)
  
  ### Accessibility
  
@@ -168,19 +173,14 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 1. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
 1. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
+
 ## Testing
 
 Chrome developer tools was used for testing at every stage of building the site. 
 The following issues were raised during my mid project meeting with my mentor:
-
-
-
-
-The images on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
-There was an issue on smaller devices where the book columns were not displaying properly. This issue is documented under issue 2 in solved bugs.
-The introduction paragraph on the books page was not aligned in style with the rest of the page. The text has now been centered.
-The form could be submitted with only a name filled in. ~ A required attribute has been added to the email input and textarea.
-
+ * The width of the hero-image was small than the actual viewport - status: resolved
+ * The form content was overflowing from the main container - status: resolved
+* The images on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with     the rest of the pages padding.
 
 ### W3C Validator
 
