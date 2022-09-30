@@ -251,6 +251,11 @@ No mobile testing was done as I did not have the time to create a media query sp
  * [akara-pap](The kitchen muse)
  * [moi-moi roolup](pulses.org)
  * The hero-image and form background from (Pexels.com)
+
+## Acknowledgement
+
+I would like to use this opportunity to appreciate my mentor Sandeep Aggarwal for the time taken out to go through 
+the codes with me and pointing out any bugs or errors found.
  
  
 
