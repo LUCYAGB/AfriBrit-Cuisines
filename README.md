@@ -8,7 +8,7 @@ I hoped, while building this site that it would be the last stop for anyone who 
 ![AfriBrit](https://user-images.githubusercontent.com/111319158/193172326-ded6636a-7e1b-47c0-a801-916ded544502.PNG)
 
 <!--Link of my site in GitHub-->
-[View AfriBrit In GitHub Here]([Insert Link](https://lucyagb.github.io/AfriBrit-Cuisines/))
+[View AfriBrit In GitHub Here](https://lucyagb.github.io/AfriBrit-Cuisines/)
 
 ## CONTENTS
 
