@@ -202,6 +202,36 @@ Test for table-booking.html
 CSS 
 * Returned no errors when ran through the official jigsaw validation
   ![image](https://user-images.githubusercontent.com/111319158/193177632-3952ecb3-ca64-454e-b478-b8e1e4d22897.png)
+  
+  ## Lighthouse
+  
+ Lighthouse within the Chrome Developer Tools was used to test the performance, accessibility, best practices and SEO of the website.
+ 
+ ## Desktop Results
+ * index.html page
+ ![image](https://user-images.githubusercontent.com/111319158/193179381-ed2e98cf-c8d4-4901-9a6b-619963e08754.png)
+ 
+  ### Suggestions
+  * Properly size images
+  * 
+
+* cuisines page
+  ![image](https://user-images.githubusercontent.com/111319158/193179623-ba32a2b0-37fe-49a1-b453-aa126586e808.png)
+  
+  ### Suggestions
+  * Avoid large layout shift
+  
+  Reserve Table page
+  ![image](https://user-images.githubusercontent.com/111319158/193180209-31305fe5-ac1c-4bac-81b3-d6652daba6fc.png)
+  
+  ###  Suggestions
+  * Avoid large layout shift
+
+
+ 
+ 
+ 
+ 
 
 
 
