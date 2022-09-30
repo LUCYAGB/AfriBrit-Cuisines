@@ -73,7 +73,10 @@ ___
 
 ## Design
 
+![coolor](https://user-images.githubusercontent.com/111319158/193173199-4d18161b-0bbc-4d00-818e-9dc5c2a118e3.PNG)
 
+Two main colors were used on the website. The main color being #F50031 which was used for the header and footer for the purpose of getting user's attention. The second color #E6EFEC was as for the overall color of the body. The color palette was created 
+using the [Coolors](https://coolors.co/) website
 
 ### Topography
 
