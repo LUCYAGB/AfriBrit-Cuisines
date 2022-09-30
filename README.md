@@ -227,9 +227,30 @@ CSS
   ###  Suggestions
   * Avoid large layout shift
 
+## Mobile Testing
 
+No mobile testing was done as I did not have the time to create a media query specifically for it.
+
+## Bugs
+
+### Known Bugs 
+* The navigation and footer section did not display well when tested using chrome dev tools. I have not been 
+  able to resolve this.
+* The homepage-images keeps stretching out of its container width well when tested using chrome dev tools. I have not been 
+  able to resolve this.
+
+
+ ## Credit 
  
- 
+ The images used in this site are credited to the following people/sites in no paticular order:
+ * [Fish & Chips with pea sauce](www.towngate-fisheries.co.uk)
+ * [Sunday-Roast](OpenTable Blog)
+ * [Spaghetti Bolognese](The cozy cook)
+ * [yam-sauce](Zeeliciousfoods)
+ * [egusi](Zeeliciousfoods)
+ * [akara-pap](The kitchen muse)
+ * [moi-moi roolup](pulses.org)
+ * The hero-image and form background from (Pexels.com)
  
  
 
