@@ -115,6 +115,10 @@ The Home page -
 
 * Navigation and Footer section: This has been explained earlier under common features of all pages.
 
+![image](https://user-images.githubusercontent.com/111319158/193174923-7ab3e714-f597-4f86-80e7-c88e52ab1af7.png)
+
+![image](https://user-images.githubusercontent.com/111319158/193175066-4b749aad-dbeb-455e-88e2-c75245c2a5ec.png)
+
 * AfriBrit Image Section: This section contains some dishes to give users an idea of what the website
  is about.
  
